@@ -1,0 +1,484 @@
+/* Global */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #8a8683;
+	background-color:#ffffff;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #f68f67;
+	text-decoration: none;
+}
+a:hover {
+	color: #bde2df;
+	text-decoration: none;
+}
+a:visited {
+	color: #f68f67;
+	text-decoration: none;
+}
+
+
+
+
+
+/* Navigation */
+
+.menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height:auto; 
+	background-color:#ffffff;
+	z-index:100;
+}
+#logo {
+	text-align: center;
+	margin: 10px 0;
+}
+#nav {
+	text-align: right;
+	margin: 30px 0 0 0;
+	width: 100%;
+	padding: 1em;
+}
+.navigation{
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+.navigation li{
+	float: left;
+	padding:0 0 0 50px;
+}
+.navigation li:hover{
+	cursor:pointer;
+	color: #a9d3d0;
+}
+
+.navigation .active{
+	cursor:pointer;
+	color: #f68f67;
+	font-weight:bold;
+}
+
+
+
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding:140px 0;
+}
+
+.parallax-wrap{
+	background: rgba(0, 0, 0, 0.4);
+	position: relative;
+	padding: 1em;
+}
+.parallax-wrap2{
+	background: rgba(0, 0, 0, 0.4);
+	position: relative;
+	padding: 1.5em;
+}
+
+
+
+/* Slide 1 */ 
+
+#slide1{
+	background-image:url('../images/metro.png');
+	background-size: cover;
+	margin-top: 100px;
+}
+#slide1 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color: #F5F5F5;
+	font-weight: 700;
+}
+#slide1 h2 {
+	font-size: 2em;
+	color: #F5F5F5;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+#slide1 p{
+    color:#F5F5F5;
+}
+
+
+
+
+/* Slide 2 */ 
+
+#slide2{
+
+	background-color:#EC6F66;
+	color:#ffffff;
+	
+}
+#slide2 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide2 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 3 */ 
+
+#slide3{
+	background-color:#ffffff;
+	background-image: url(../images/circuito-integrado-kilby.jpg);
+	background-size: cover;
+}
+#slide3 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#fff;
+	font-weight: 700;
+}
+#slide3 h2 {
+	font-size: 2em;
+	color: #fff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+#slide3 p{
+	color: #fff
+}
+#test{
+	background-color:#bde2df;
+	color:#ffffff;
+	text-align:center;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 4 */
+
+#slide4{
+	background: rgb(20, 160, 226);
+	color:#ffffff;
+}
+#slide4 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide4 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+/* Slide 7 */ 
+
+#slide7{
+	background-color:#ffffff;
+	background-image: url(../images/cc1.jpg);
+	background-size: cover;
+}
+#slide7 h1 {
+	font-size: 3em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#fff;
+	font-weight: 700;
+}
+#slide7 h2 {
+	font-size: 1.3em;
+	color: #fff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+#slide7 p{
+	color: #fff
+}
+
+/* Slide 4 */
+
+#slide8{
+	background-color: #1abc9c;
+	color:#ffffff;
+}
+#slide8 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide8 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+ .imgCircle{
+
+    
+     display: inline-block;
+     height: auto;
+     padding-top: 75%;
+
+  
+
+     width: 75%;
+     -webkit-border-radius: 30%;
+     -moz-border-radius: 30%;
+     border-radius: 50%;
+  
+
+     margin: 3em 1.5em auto;
+  
+
+     margin-right: 25px;
+  
+  
+
+     background-size: cover;
+  background-position: center center;
+ 
+  border-radius: 99em;
+  border: 3px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+
+       
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.imgCircle:hover{
+     border-color: rgb(64,186,216);
+}
+
+
+#imgCircle1{
+	 background-image: url(../images/transitor.jpg);
+}
+
+#imgCircle2{
+	background-image: url(../images/circuito-integrado-kilby.jpg);
+}
+
+#imgCircle3{
+	background-image: url(../images/intel4004.jpg);
+}
+#imgCircle7{
+	background-image: url(../images/cc.jpg);
+}
+#imgCircle8{
+	background-image: url(../images/qu.jpg);
+}
+
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: center;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+	padding:0;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+#decorative {
+	display:none;
+}
+
+#content {
+	text-align:center;
+	width:100%;
+}
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+#slide7 h1 {
+	line-height: 1em;
+}
+#slide7 h2 {
+	line-height: 1em;
+}
+
+#slide8 h1 {
+	line-height: 1em;
+}
+#slide8 h2 {
+	line-height: 1em;
+}
+
+#slide9 h1 {
+	line-height: 1em;
+}
+#slide9 h2 {
+	line-height: 1em;
+}
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	margin:5px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+
+}
+
+
+
+
