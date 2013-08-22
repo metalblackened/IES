@@ -51,7 +51,7 @@ a:visited {
 }
 .navigation li{
   float: left;
-  padding:0 0 0 50px;
+  padding:0 0 0 30px;
 }
 .navigation li:hover{
   cursor:pointer;
@@ -70,6 +70,7 @@ a:visited {
 .slide{
   background-attachment: fixed;
   width:100%;
+  min-height: 700px;
   height:auto;
   position: relative;
   padding:140px 0;
@@ -80,6 +81,11 @@ a:visited {
   position: relative;
   padding: 1em;
 }
+
+.nombre{
+  font-size: 1.8em;
+}
+
 .parallax-wrap2{
   background: rgba(0, 0, 0, 0.4);
   position: relative;
@@ -103,7 +109,7 @@ a:visited {
 }
 #slide1 h2 {
   font-size: 2em;
-  color: #F5F5F5;
+  color: yellow;
   line-height: 0px;
   padding-bottom:20px;
   font-weight: 400;
@@ -197,9 +203,9 @@ a:visited {
 /* Slide 5 */ 
 
 #slide5{
-  background-color:#ffffff;
-  background-image: url(../images/appleBackground.jpg);
+  background-color:#c7823d;
   background-size: cover;
+  color: #fff;
 }
 #slide5 h1 {
   font-size: 3.8em;
@@ -210,8 +216,7 @@ a:visited {
 }
 
 #slide5 .header{
-  background: rgba(0, 0, 0, 0.4);
-  color:#ffffff;
+  margin-bottom: 15px; 
   padding: 15px;
 }
 
@@ -240,10 +245,39 @@ a:visited {
 }
 
 #slide6 p{
-  color: #000
+  color: #000;
+  font-size: 1.6em;
 }
 
+/*****************************************************************************/
+/* Slide 7 */ 
 
+#slide7{
+  background-color:#f09609;
+  background-size: cover;
+}
+#slide7 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide7 .span7{
+  color:#fff;
+  padding: 17px;
+}
+
+#slide7 .author{
+  float: right;
+  text-align: right;
+}
+
+#slide7 p{
+  color: #fff;
+  font-size: 2em;
+}
 
 /*****************************************************************************/
 /* Slide 8 */ 
@@ -294,51 +328,186 @@ a:visited {
   font-weight: 400;
 }
 
+/*****************************************************************************/
+/* Slide 10 */ 
+
+#slide10{
+  background-color: #969696;
+  background-size: cover;
+}
+#slide10 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide10 .span7{
+  color:#fff;
+  padding: 17px;
+}
+
+#slide10 .author{
+  float: right;
+  text-align: right;
+}
+
+#slide10 p{
+  color: #fff;
+  font-size: 2em;
+}
+
+/*****************************************************************************/
+/* Slide 11 */ 
+
+#slide11{
+  background-color:#00aba9;
+  background-size: cover;
+}
+#slide11 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide11 h3 {
+  font-size: 2em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide11 .span7{
+  color:#fff;
+  padding: 17px;
+}
+
+#slide11 .author{
+  float: right;
+  text-align: right;
+}
+
+#slide11 p{
+  color: #fff;
+  font-size: 2em;
+}
+
+/*****************************************************************************/
+/* Slide 12 */ 
+
+#slide12{
+  background-color:#92c727;
+  background-size: cover;
+}
+#slide12 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide12 h3 {
+  font-size: 2em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide12 .span7{
+  color:#fff;
+  padding: 17px;
+}
+
+#slide12 .author{
+  float: right;
+  text-align: right;
+}
+
+#slide12 ul li{
+  list-style: none;
+  color: #fff;
+  font-size: 2em;
+}
 
 
+
+/*****************************************************************************/
+/* Slide 13 */ 
+
+#slide13{
+  background-color:#ffd805;
+  background-size: cover;
+  color: #000;
+}
+#slide13 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  font-weight: 700;
+}
+
+#slide13 h3 {
+  font-size: 2em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide13 .span7{
+  padding: 17px;
+}
+
+#slide13 .author{
+  float: right;
+  text-align: right;
+}
+
+#slide13 p{
+  font-size: 2em;
+}
 
 
 
  .imgCircle{
 
-    
-     display: inline-block;
-     height: auto;
-     padding-top: 75%;
-
   
+  display: inline-block;
+  height: auto;
+  padding-top: 75%;
+  width: 75%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  border-radius: 50%;
 
-     width: 75%;
-     -webkit-border-radius: 30%;
-     -moz-border-radius: 30%;
-     border-radius: 50%;
-  
 
-     margin: 3em 1.5em auto;
-  
+  margin: 3em 1.5em auto;
 
-     margin-right: 25px;
-  
-  
 
-     background-size: cover;
+  margin-right: 25px;
+  background-size: cover;
   background-position: center center;
- 
+
   border-radius: 99em;
   border: 3px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
 
-       
-    -webkit-transition: border-color 0.5s;
-    -moz-transition: border-color 0.5s;
-    -o-transition: border-color 0.5s;
-    transition: border-color 0.5s;
+   
+  -webkit-transition: border-color 0.5s;
+  -moz-transition: border-color 0.5s;
+  -o-transition: border-color 0.5s;
+  transition: border-color 0.5s;
 }
 
 .imgCircle:hover{
      border-color: rgb(64,186,216);
 }
-
 
 #imgCircle1{
    background-image: url(../images/transitor.jpg);
@@ -352,15 +521,39 @@ a:visited {
   background-image: url(../images/intel4004.jpg);
 }
 
-#imgCircle4{
-  background-image: url(../images/intel4004.jpg);
+#imgCircle5{
+  background-image: url(../images/internet.png);
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+#imgCircle6{
+  background-image: url(../images/tim.jpg);
 }
 
 #imgCircle7{
   background-image: url(../images/cc.jpg);
 }
+
 #imgCircle8{
   background-image: url(../images/qu.jpg);
+}
+
+
+#imgCircle9{
+  background-image: url(../images/jobs.jpg);
+}
+
+#imgCircle10{
+  background-image: url(../images/saas.jpg);
+}
+
+#imgCircle11{
+  background-image: url(../images/bigdata.jpg);
+}
+
+#imgCircle12{
+  background-image: url(../images/ia.jpg);
 }
 
 
