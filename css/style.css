@@ -1,256 +1,297 @@
 /* Global */
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 1em;
-	color: #8a8683;
-	background-color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #8a8683;
+  background-color:#ffffff;
 }
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 a:link {
-	color: #f68f67;
-	text-decoration: none;
+  color: #f68f67;
+  text-decoration: none;
 }
 a:hover {
-	color: #bde2df;
-	text-decoration: none;
+  color: #bde2df;
+  text-decoration: none;
 }
 a:visited {
-	color: #f68f67;
-	text-decoration: none;
+  color: #f68f67;
+  text-decoration: none;
 }
 
-
-
-
-
+/*****************************************************************************/
 /* Navigation */
 
 .menu {
-	position:fixed;
-	top:0px;
-	width:100%; 
-	height:auto; 
-	background-color:#ffffff;
-	z-index:100;
+  position:fixed;
+  top:0px;
+  width:100%; 
+  height:auto; 
+  background-color:#ffffff;
+  z-index:100;
 }
 #logo {
-	text-align: center;
-	margin: 10px 0;
+  text-align: center;
+  margin: 10px 0;
 }
 #nav {
-	text-align: right;
-	margin: 30px 0 0 0;
-	width: 100%;
-	padding: 1em;
+  text-align: right;
+  margin: 30px 0 0 0;
+  width: 100%;
+  padding: 1em;
 }
 .navigation{
-	float: right;
-	list-style: none;
-	margin: 0;
+  float: right;
+  list-style: none;
+  margin: 0;
 }
 .navigation li{
-	float: left;
-	padding:0 0 0 50px;
+  float: left;
+  padding:0 0 0 50px;
 }
 .navigation li:hover{
-	cursor:pointer;
-	color: #a9d3d0;
+  cursor:pointer;
+  color: #a9d3d0;
 }
 
 .navigation .active{
-	cursor:pointer;
-	color: #f68f67;
-	font-weight:bold;
+  cursor:pointer;
+  color: #f68f67;
+  font-weight:bold;
 }
 
-
-
-
+/*****************************************************************************/
 /* General Slides */ 
 
 .slide{
-	background-attachment: fixed;
-	width:100%;
-	height:auto;
-	position: relative;
-	padding:140px 0;
+  background-attachment: fixed;
+  width:100%;
+  height:auto;
+  position: relative;
+  padding:140px 0;
 }
 
 .parallax-wrap{
-	background: rgba(0, 0, 0, 0.4);
-	position: relative;
-	padding: 1em;
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding: 1em;
 }
 .parallax-wrap2{
-	background: rgba(0, 0, 0, 0.4);
-	position: relative;
-	padding: 1.5em;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  padding: 1.5em;
 }
 
-
-
+/*****************************************************************************/
 /* Slide 1 */ 
 
 #slide1{
-	background-image:url('../images/metro.png');
-	background-size: cover;
-	margin-top: 100px;
+  background-image:url('../images/metro.png');
+  background-size: cover;
+  margin-top: 100px;
 }
 #slide1 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
-	color: #F5F5F5;
-	font-weight: 700;
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color: #F5F5F5;
+  font-weight: 700;
 }
 #slide1 h2 {
-	font-size: 2em;
-	color: #F5F5F5;
-	line-height: 0px;
-	padding-bottom:20px;
-	font-weight: 400;
+  font-size: 2em;
+  color: #F5F5F5;
+  line-height: 0px;
+  padding-bottom:20px;
+  font-weight: 400;
 }
 
 #slide1 p{
     color:#F5F5F5;
 }
 
-
-
-
+/*****************************************************************************/
 /* Slide 2 */ 
 
 #slide2{
 
-	background-color:#EC6F66;
-	color:#ffffff;
-	
+  background-color:#EC6F66;
+  color:#ffffff;
+  
 }
 #slide2 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
-	color:#ffffff;
-	font-weight: 700;
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#ffffff;
+  font-weight: 700;
 }
 #slide2 h2 {
-	font-size: 2em;
-	color: #ffffff;
-	line-height: 0px;
-	padding-bottom:20px;
-	font-weight: 400;
+  font-size: 2em;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom:20px;
+  font-weight: 400;
 }
 
-
-
-
+/*****************************************************************************/
 /* Slide 3 */ 
 
 #slide3{
-	background-color:#ffffff;
-	background-image: url(../images/circuito-integrado-kilby.jpg);
-	background-size: cover;
+  background-color:#ffffff;
+  background-image: url(../images/circuito-integrado-kilby.jpg);
+  background-size: cover;
 }
 #slide3 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
-	color:#fff;
-	font-weight: 700;
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
 }
 #slide3 h2 {
-	font-size: 2em;
-	color: #fff;
-	line-height: 0px;
-	padding-bottom:20px;
-	font-weight: 400;
+  font-size: 2em;
+  color: #fff;
+  line-height: 0px;
+  padding-bottom:20px;
+  font-weight: 400;
 }
 
 #slide3 p{
-	color: #fff
+  color: #fff
 }
 #test{
-	background-color:#bde2df;
-	color:#ffffff;
-	text-align:center;
-	font-size: 2em;
-	font-weight: 400;
+  background-color:#bde2df;
+  color:#ffffff;
+  text-align:center;
+  font-size: 2em;
+  font-weight: 400;
 }
 
-
-
-
+/*****************************************************************************/
 /* Slide 4 */
 
 #slide4{
-	background: rgb(20, 160, 226);
-	color:#ffffff;
+  background: rgb(20, 160, 226);
+  color:#ffffff;
 }
 #slide4 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
-	color:#ffffff;
-	font-weight: 700;
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#ffffff;
+  font-weight: 700;
 }
 #slide4 h2 {
-	font-size: 2em;
-	color: #ffffff;
-	line-height: 0px;
-	padding-bottom:20px;
-	font-weight: 400;
+  font-size: 2em;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom:20px;
+  font-weight: 400;
+}
+
+/*****************************************************************************/
+/* Slide 5 */ 
+
+#slide5{
+  background-color:#ffffff;
+  background-image: url(../images/appleBackground.jpg);
+  background-size: cover;
+}
+#slide5 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
+}
+
+#slide5 .header{
+  background: rgba(0, 0, 0, 0.4);
+  color:#ffffff;
+  padding: 15px;
+}
+
+#slide5 p{
+  color: #fff
+}
+
+/*****************************************************************************/
+/* Slide 6 */ 
+
+#slide6{
+  background-color:#f0f0f0;
+}
+
+#slide6 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#000;
+  font-weight: 700;
+}
+
+#slide6 .author{
+  float: right;
+  text-align: right;
+}
+
+#slide6 p{
+  color: #000
 }
 
 
-/* Slide 7 */ 
 
-#slide7{
-	background-color:#ffffff;
-	background-image: url(../images/cc1.jpg);
-	background-size: cover;
-}
-#slide7 h1 {
-	font-size: 3em;
-	letter-spacing: -3px;
-	line-height: 0px;
-	color:#fff;
-	font-weight: 700;
-}
-#slide7 h2 {
-	font-size: 1.3em;
-	color: #fff;
-	line-height: 0px;
-	padding-bottom:20px;
-	font-weight: 400;
-}
-
-#slide7 p{
-	color: #fff
-}
-
-/* Slide 4 */
+/*****************************************************************************/
+/* Slide 8 */ 
 
 #slide8{
-	background-color: #1abc9c;
-	color:#ffffff;
+  background-color:#ffffff;
+  background-image: url(../images/cc1.jpg);
+  background-size: cover;
 }
 #slide8 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
-	color:#ffffff;
-	font-weight: 700;
+  font-size: 3em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#fff;
+  font-weight: 700;
 }
 #slide8 h2 {
-	font-size: 2em;
-	color: #ffffff;
-	line-height: 0px;
-	padding-bottom:20px;
-	font-weight: 400;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 0px;
+  padding-bottom:20px;
+  font-weight: 400;
+}
+
+#slide8 p{
+  color: #fff
+}
+
+/*****************************************************************************/
+/* Slide 9 */
+
+#slide9{
+  background-color: #1abc9c;
+  color:#ffffff;
+}
+#slide9 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color:#ffffff;
+  font-weight: 700;
+}
+#slide9 h2 {
+  font-size: 2em;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom:20px;
+  font-weight: 400;
 }
 
 
@@ -300,21 +341,26 @@ a:visited {
 
 
 #imgCircle1{
-	 background-image: url(../images/transitor.jpg);
+   background-image: url(../images/transitor.jpg);
 }
 
 #imgCircle2{
-	background-image: url(../images/circuito-integrado-kilby.jpg);
+  background-image: url(../images/circuito-integrado-kilby.jpg);
 }
 
 #imgCircle3{
-	background-image: url(../images/intel4004.jpg);
+  background-image: url(../images/intel4004.jpg);
 }
+
+#imgCircle4{
+  background-image: url(../images/intel4004.jpg);
+}
+
 #imgCircle7{
-	background-image: url(../images/cc.jpg);
+  background-image: url(../images/cc.jpg);
 }
 #imgCircle8{
-	background-image: url(../images/qu.jpg);
+  background-image: url(../images/qu.jpg);
 }
 
 
@@ -326,90 +372,90 @@ a:visited {
 @media screen and (max-width: 1024px) {
 
 #logo {
-	width: 100%;
-	text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #nav {
-	width:100%;
-	text-align:center;
-	margin:10px 0;
+  width:100%;
+  text-align:center;
+  margin:10px 0;
 }
 
 .navigation{
-	width: 100%;
-	float: center;
-	list-style: none;
-	margin: 0;
-	padding:0;
+  width: 100%;
+  float: center;
+  list-style: none;
+  margin: 0;
+  padding:0;
 }
 
 .navigation li{
-	float: left;
-	width:25%;
-	padding:0;
+  float: left;
+  width:25%;
+  padding:0;
 }
 
 .slide{
-	background-attachment: fixed;
-	width:100%;
-	position: relative;
-	padding:150px 0;
+  background-attachment: fixed;
+  width:100%;
+  position: relative;
+  padding:150px 0;
 }
 
 #decorative {
-	display:none;
+  display:none;
 }
 
 #content {
-	text-align:center;
-	width:100%;
+  text-align:center;
+  width:100%;
 }
 
 #slide1 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide1 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide2 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide2 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide3 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide3 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide4 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide4 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 
 #slide7 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide7 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 
 #slide8 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide8 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 
 #slide9 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide9 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 
 }
@@ -421,59 +467,59 @@ a:visited {
 @media screen and (max-width: 480px) {
 
 #logo {
-	width: 100%;
-	text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #nav {
-	width:100%;
-	margin:5px 0;
+  width:100%;
+  margin:5px 0;
 }
 
 .navigation{
-	width: 100%;
-	float: left;
-	list-style: none;
-	margin: 0;
-	padding:0;
+  width: 100%;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding:0;
 }
 
 .navigation li{
-	float: left;
-	width:25%;
+  float: left;
+  width:25%;
 }
 
 .slide{
-	background-attachment: fixed;
-	width:100%;
-	position: relative;
-	padding:150px 0;
+  background-attachment: fixed;
+  width:100%;
+  position: relative;
+  padding:150px 0;
 }
 
 
 #slide1 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide1 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide2 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide2 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide3 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide3 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide4 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 #slide4 h2 {
-	line-height: 1em;
+  line-height: 1em;
 }
 
 
